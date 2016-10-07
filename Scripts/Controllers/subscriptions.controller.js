@@ -11,8 +11,6 @@ angular.module("mainModule")
         		$scope.feed = $scope.posts.filter(function (post) {
         			return $scope.subscribedAuthors.indexOf(post.author) != -1;
         		});
-
-        		console.log($scope.subscribedAuthors);
         	};
 
         	$scope.unsubscribe = function (author) {

@@ -2,3 +2,8 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background-image: url('../../Gallery/floral-old-paper-or-parchment.jpg');
+    background-size: auto;
+}

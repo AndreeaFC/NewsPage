@@ -33,7 +33,7 @@
                 return deferred.promise;
             };
 
-            this.deletePost = function (id) {
+            this.deletePost = function (id) {       //deletes post at server
                 var deferred = $q.defer();
 
                 $http.delete(posts + "/" + id)

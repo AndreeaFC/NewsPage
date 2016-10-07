@@ -16,6 +16,13 @@ angular.module("mainModule")
                     activeTab: "Home"
                 })
 
+                .when("/Article", {
+                    templateUrl: "Views/Article.html",
+                    controller: "ArticleController",
+                    caseInsensitiveMatch: true,
+                    activeTab: "Article"
+                })
+
                 .when("/Subscriptions", {
                     templateUrl: "Views/Subscriptions.html",
                     controller: "SubscriptionsController",

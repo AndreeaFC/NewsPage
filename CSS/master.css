@@ -1,7 +1,10 @@
 ﻿@import url(../Content/bootstrap.min.css);
+@import url(“~/Content/fontawesome”);
 
 /* Components */
 @import url('Components/navbar.css');
+@import url('Components/home.css');
+@import url('Components/article.css');
 
 /* Layout */
 @import url('Layout/layout.css');
